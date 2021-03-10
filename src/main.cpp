@@ -22,10 +22,10 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   
-  delay(1000);               // wait for a second
-  Serial.println("on");      // print "on" on screen
-  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);               // wait for a second
-  Serial.println("off");     // print "off" on screen
-  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(led, HIGH);  // turn the LED on (HIGH is the voltage level)
+  Serial.println("on");     // print "on" on screen
+  delay(500);               // wait for 500 ms
+  digitalWrite(led, LOW);   // turn the LED off by making the voltage LOW
+  Serial.println("off");    // print "off" on screen
+  delay(500);               // wait for 500 ms
 }
