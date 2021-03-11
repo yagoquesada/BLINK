@@ -1,6 +1,5 @@
 # PRACTICA 1 : BLINK
 
-
 ## CODIGO
 
 ```
@@ -37,3 +36,4 @@ graph TD;
 :::
 
 ## DIAGRAMA DE TIEMPOS
+
