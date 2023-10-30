@@ -38,10 +38,20 @@ graph TD
 ## DIAGRAMA DE TIEMPOS
 
 ```wavedrom
-{ signal: [
-  { name: "LED",    wave: "1010101|01" },
-  { name: "time",   wave: "5656565|65", data: ["0.5s", "0.5s", "0.5s", "0.5s", "0.5s", "0.5s", "0.5s", "0.5s", "0.5s"] }
-]}
+{
+  signal:
+  [
+    {  
+      name: "LED",
+      wave: "1010101|01"
+    },
+    {
+      name: "time",
+      wave: "5656565|65",
+      data: ["0.5s", "0.5s", "0.5s", "0.5s", "0.5s", "0.5s", "0.5s", "0.5s", "0.5s"]
+    }
+  ]
+}
 ```
 
 
